@@ -109,6 +109,8 @@ export const listProjects = [
     title: "Darkblade Studio – Web Platform Development",
     desc: "Developed a fully responsive and scalable web platform for a fantasy game studio. Implemented React.js with Tailwind CSS for rapid UI building, and integrated backend APIs for player stats, login, and live leaderboards. Optimized for performance and accessibility across all devices.",
     background: "/images/bg-2.webp",
+    sourceUrl: "https://github.com/yoshcasaster/darkblade-studio",
+    demoUrl: "https://darkblade-studio.vercel.app",
     list_tech: [
       { name: "javaScript", icon: "/icons/js.png" },
       { name: "React", icon: "/icons/react.svg" },
@@ -119,6 +121,8 @@ export const listProjects = [
     title: "Personal Developer Portfolio – GSAP & 3D UI",
     desc: "Created an animated portfolio site with GSAP scroll animations and interactive 3D sections using Three.js. Included custom-built CMS for easy content updates. Achieved Lighthouse performance score of 98+. Built with SEO, responsive design, and accessibility in mind.",
     background: "/images/bg-3.webp",
+    sourceUrl: "https://github.com/yoshcasaster/portfolio-3d",
+    demoUrl: "https://yoshcasaster-portfolio.vercel.app",
     list_tech: [
       { name: "React", icon: "/icons/react.svg" },
       { name: "Tailwind", icon: "/icons/tailwind.png" },
@@ -162,6 +166,81 @@ export const listEducation = [
       "Valedictorian with GPA 9.8/10.0",
       "1st Place National Programming Olympiad",
       "Student Council President"
+    ]
+  }
+];
+
+export const listWorkHistory = [
+  {
+    company: "Tech Innovate Solutions",
+    position: "Senior Frontend Developer",
+    period: "Jan 2022 - Present",
+    duration: "2+ years",
+    type: "Full-time",
+    location: "Jakarta, Indonesia",
+    shortDesc: "Leading frontend development for enterprise web applications using React.js and modern web technologies.",
+    description: "As a Senior Frontend Developer at Tech Innovate Solutions, I lead the development of complex web applications for enterprise clients. My responsibilities include architecting scalable frontend solutions, mentoring junior developers, and collaborating with cross-functional teams to deliver high-quality products. I've successfully delivered 15+ projects, improved application performance by 40%, and established coding standards that increased team productivity.",
+    banner: "/images/work-banner-1.jpg",
+    logo: "/images/company-logo-1.png",
+    companyUrl: "https://techinnovate.com",
+    gallery: [
+      "/images/work-gallery-1-1.jpg",
+      "/images/work-gallery-1-2.jpg",
+      "/images/work-gallery-1-3.jpg"
+    ],
+    achievements: [
+      "Led a team of 5 developers in building a multi-tenant SaaS platform",
+      "Improved application load time by 40% through code optimization",
+      "Implemented automated testing that reduced bugs by 60%",
+      "Mentored 8 junior developers and conducted technical interviews"
+    ]
+  },
+  {
+    company: "Digital Creative Agency",
+    position: "Frontend Developer",
+    period: "Mar 2020 - Dec 2021",
+    duration: "1 year 10 months",
+    type: "Full-time",
+    location: "Bandung, Indonesia",
+    shortDesc: "Developed responsive websites and web applications for various clients in creative and e-commerce industries.",
+    description: "At Digital Creative Agency, I was responsible for creating engaging and responsive websites for clients across various industries. I worked closely with designers and backend developers to bring creative concepts to life. My role involved developing custom WordPress themes, building React applications, and ensuring cross-browser compatibility and mobile responsiveness.",
+    banner: "/images/work-banner-2.jpg",
+    logo: "/images/company-logo-2.png",
+    companyUrl: "https://digitalcreative.id",
+    gallery: [
+      "/images/work-gallery-2-1.jpg",
+      "/images/work-gallery-2-2.jpg",
+      "/images/work-gallery-2-3.jpg"
+    ],
+    achievements: [
+      "Delivered 25+ client projects with 98% satisfaction rate",
+      "Reduced development time by 30% through component reusability",
+      "Collaborated with design team to improve UI/UX workflows",
+      "Trained team members on modern JavaScript frameworks"
+    ]
+  },
+  {
+    company: "StartupTech Indonesia",
+    position: "Junior Frontend Developer",
+    period: "Jun 2019 - Feb 2020",
+    duration: "9 months",
+    type: "Full-time",
+    location: "Jakarta, Indonesia",
+    shortDesc: "Started my professional journey developing user interfaces for startup products and learning modern web development practices.",
+    description: "My first professional role where I learned the fundamentals of modern web development. I contributed to building the company's main product interface, participated in code reviews, and gained experience with agile development methodologies. This role provided me with a solid foundation in React.js, version control, and collaborative development practices.",
+    banner: "/images/work-banner-3.jpg",
+    logo: "/images/company-logo-3.png",
+    companyUrl: "https://startuptech.id",
+    gallery: [
+      "/images/work-gallery-3-1.jpg",
+      "/images/work-gallery-3-2.jpg",
+      "/images/work-gallery-3-3.jpg"
+    ],
+    achievements: [
+      "Successfully completed onboarding and training program",
+      "Contributed to 3 major product releases",
+      "Improved code quality through peer reviews and testing",
+      "Participated in daily standups and sprint planning"
     ]
   }
 ];

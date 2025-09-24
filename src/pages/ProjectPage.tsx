@@ -25,16 +25,16 @@ const ProjectPage = () => {
     <>
       <section>
         <HeroBanner />
-        <div className="mt-14 text-left text-(--text-color-black)">
-          <h1 className="font-barlow max-w-[370px] text-4xl font-bold max-xl:w-[300px] max-xl:text-3xl">
+        <div className="mt-14 text-left text-(--text-color-black) px-2 md:px-0">
+          <h1 className="font-barlow max-w-[370px] text-3xl md:text-4xl font-bold max-xl:w-[300px] max-xl:text-3xl">
             {t("projects.title")}
           </h1>
-          <p className="text-lg mt-4 max-w-[600px] leading-6 font-light">
+          <p className="text-base md:text-lg mt-4 max-w-[600px] leading-6 font-light">
             {t("projects.description")}
           </p>
         </div>
 
-        <div className="mt-8 grid grid-cols-1 gap-6 max-md:gap-4">
+        <div className="mt-8 grid grid-cols-1 gap-4 md:gap-6 px-2 md:px-0">
           {listProjects.map((item, index) => (
             <CardLarge
               key={index}
@@ -43,14 +43,14 @@ const ProjectPage = () => {
               text={item.desc}
               title={item.title}
               tech={item.list_tech}
-              onClick={() => setDataProject(item)}
+              projectId={index}
             />
           ))}
         </div>
 
-        <div className="mt-12 text-center">
+        <div className="mt-8 md:mt-12 text-center px-2 md:px-0">
           <button
-            className="cursor-pointer rounded-full border-2 border-(--bg-secondary-cray) px-6 py-3 hover:bg-(--bg-secondary-cray) transition-all duration-300"
+            className="cursor-pointer rounded-full border-2 border-(--bg-secondary-cray) px-4 py-2 md:px-6 md:py-3 hover:bg-(--bg-secondary-cray) transition-all duration-300 text-sm md:text-base"
             onClick={() => {
               window.open("https://github.com/yoshcasaster", "_blank");
             }}
@@ -60,11 +60,6 @@ const ProjectPage = () => {
         </div>
       </section>
 
-      <Modal
-        isOpen={dataProject}
-        onClose={() => setDataProject(undefined)}
-        data={dataProject}
-      />
     </>
   );
 };

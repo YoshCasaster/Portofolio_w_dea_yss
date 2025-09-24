@@ -110,6 +110,34 @@ const resources = {
           }
         }
       },
+
+      workHistory: {
+        title: "Work History",
+        description: "My professional journey and experience working with various companies, from startups to established agencies, building modern web applications and leading development teams.",
+        items: {
+          0: {
+            company: "Tech Innovate Solutions",
+            position: "Senior Frontend Developer",
+            period: "Jan 2022 - Present",
+            shortDesc: "Leading frontend development for enterprise web applications using React.js and modern web technologies.",
+            description: "As a Senior Frontend Developer at Tech Innovate Solutions, I lead the development of complex web applications for enterprise clients. My responsibilities include architecting scalable frontend solutions, mentoring junior developers, and collaborating with cross-functional teams to deliver high-quality products. I've successfully delivered 15+ projects, improved application performance by 40%, and established coding standards that increased team productivity."
+          },
+          1: {
+            company: "Digital Creative Agency",
+            position: "Frontend Developer", 
+            period: "Mar 2020 - Dec 2021",
+            shortDesc: "Developed responsive websites and web applications for various clients in creative and e-commerce industries.",
+            description: "At Digital Creative Agency, I was responsible for creating engaging and responsive websites for clients across various industries. I worked closely with designers and backend developers to bring creative concepts to life. My role involved developing custom WordPress themes, building React applications, and ensuring cross-browser compatibility and mobile responsiveness."
+          },
+          2: {
+            company: "StartupTech Indonesia",
+            position: "Junior Frontend Developer",
+            period: "Jun 2019 - Feb 2020", 
+            shortDesc: "Started my professional journey developing user interfaces for startup products and learning modern web development practices.",
+            description: "My first professional role where I learned the fundamentals of modern web development. I contributed to building the company's main product interface, participated in code reviews, and gained experience with agile development methodologies. This role provided me with a solid foundation in React.js, version control, and collaborative development practices."
+          }
+        }
+      },
     },
   },
   id: {
@@ -216,6 +244,34 @@ const resources = {
             title: "Penguasaan Tailwind CSS",
             issuer: "Tailwind Labs",
             date: "Juli 2023"
+          }
+        }
+      },
+
+      workHistory: {
+        title: "Riwayat Pekerjaan",
+        description: "Perjalanan profesional dan pengalaman saya bekerja dengan berbagai perusahaan, dari startup hingga agensi mapan, membangun aplikasi web modern dan memimpin tim pengembangan.",
+        items: {
+          0: {
+            company: "Tech Innovate Solutions",
+            position: "Senior Frontend Developer",
+            period: "Jan 2022 - Sekarang",
+            shortDesc: "Memimpin pengembangan frontend untuk aplikasi web enterprise menggunakan React.js dan teknologi web modern.",
+            description: "Sebagai Senior Frontend Developer di Tech Innovate Solutions, saya memimpin pengembangan aplikasi web kompleks untuk klien enterprise. Tanggung jawab saya meliputi merancang solusi frontend yang skalabel, membimbing developer junior, dan berkolaborasi dengan tim lintas fungsi untuk menghasilkan produk berkualitas tinggi. Saya telah berhasil menyelesaikan 15+ proyek, meningkatkan performa aplikasi sebesar 40%, dan menetapkan standar coding yang meningkatkan produktivitas tim."
+          },
+          1: {
+            company: "Digital Creative Agency",
+            position: "Frontend Developer",
+            period: "Mar 2020 - Des 2021",
+            shortDesc: "Mengembangkan website responsif dan aplikasi web untuk berbagai klien di industri kreatif dan e-commerce.",
+            description: "Di Digital Creative Agency, saya bertanggung jawab membuat website yang menarik dan responsif untuk klien di berbagai industri. Saya bekerja sama dengan desainer dan backend developer untuk mewujudkan konsep kreatif. Peran saya meliputi pengembangan tema WordPress kustom, membangun aplikasi React, dan memastikan kompatibilitas lintas browser serta responsivitas mobile."
+          },
+          2: {
+            company: "StartupTech Indonesia", 
+            position: "Junior Frontend Developer",
+            period: "Jun 2019 - Feb 2020",
+            shortDesc: "Memulai perjalanan profesional dengan mengembangkan antarmuka pengguna untuk produk startup dan mempelajari praktik pengembangan web modern.",
+            description: "Peran profesional pertama saya di mana saya mempelajari dasar-dasar pengembangan web modern. Saya berkontribusi dalam membangun antarmuka produk utama perusahaan, berpartisipasi dalam code review, dan mendapatkan pengalaman dengan metodologi pengembangan agile. Peran ini memberikan saya fondasi yang solid dalam React.js, version control, dan praktik pengembangan kolaboratif."
           }
         }
       },
@@ -326,6 +382,34 @@ const resources = {
             title: "Maîtrise Tailwind CSS",
             issuer: "Tailwind Labs",
             date: "Juillet 2023"
+          }
+        }
+      },
+
+      workHistory: {
+        title: "Historique Professionnel",
+        description: "Mon parcours professionnel et mon expérience de travail avec diverses entreprises, des startups aux agences établies, en construisant des applications web modernes et en dirigeant des équipes de développement.",
+        items: {
+          0: {
+            company: "Tech Innovate Solutions",
+            position: "Développeur Frontend Senior",
+            period: "Jan 2022 - Présent",
+            shortDesc: "Direction du développement frontend pour des applications web d'entreprise utilisant React.js et les technologies web modernes.",
+            description: "En tant que Développeur Frontend Senior chez Tech Innovate Solutions, je dirige le développement d'applications web complexes pour des clients d'entreprise. Mes responsabilités incluent l'architecture de solutions frontend évolutives, le mentorat de développeurs juniors, et la collaboration avec des équipes transversales pour livrer des produits de haute qualité. J'ai livré avec succès 15+ projets, amélioré les performances d'application de 40%, et établi des standards de codage qui ont augmenté la productivité de l'équipe."
+          },
+          1: {
+            company: "Digital Creative Agency",
+            position: "Développeur Frontend",
+            period: "Mar 2020 - Déc 2021",
+            shortDesc: "Développement de sites web responsifs et d'applications web pour divers clients dans les industries créatives et e-commerce.",
+            description: "Chez Digital Creative Agency, j'étais responsable de créer des sites web engageants et responsifs pour des clients de diverses industries. J'ai travaillé étroitement avec les designers et développeurs backend pour donner vie aux concepts créatifs. Mon rôle impliquait le développement de thèmes WordPress personnalisés, la construction d'applications React, et l'assurance de la compatibilité cross-browser et de la responsivité mobile."
+          },
+          2: {
+            company: "StartupTech Indonesia",
+            position: "Développeur Frontend Junior",
+            period: "Jun 2019 - Fév 2020",
+            shortDesc: "Début de mon parcours professionnel en développant des interfaces utilisateur pour des produits de startup et en apprenant les pratiques modernes de développement web.",
+            description: "Mon premier rôle professionnel où j'ai appris les fondamentaux du développement web moderne. J'ai contribué à la construction de l'interface du produit principal de l'entreprise, participé aux revues de code, et acquis de l'expérience avec les méthodologies de développement agile. Ce rôle m'a fourni une base solide en React.js, contrôle de version, et pratiques de développement collaboratif."
           }
         }
       },

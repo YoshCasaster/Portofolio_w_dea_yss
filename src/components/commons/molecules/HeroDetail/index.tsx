@@ -93,9 +93,7 @@ const HeroDetail = () => {
               text={item.desc}
               title={item.title}
               tech={item.list_tech}
-              onClick={() => {
-                setDataProject(item as any);
-              }}
+              projectId={index}
             />
           ))}
         </div>
