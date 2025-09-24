@@ -126,3 +126,93 @@ export const listProjects = [
     ],
   },
 ];
+
+export const listEducation = [
+  {
+    degree: "Bachelor of Computer Science",
+    institution: "Universitas Indonesia",
+    period: "2018 - 2022",
+    logo: "/images/ui-logo.png",
+    description: "Focused on Software Engineering and Web Development with specialization in Frontend Technologies.",
+    achievements: [
+      "Graduated Magna Cum Laude with GPA 3.8/4.0",
+      "Best Final Project Award for React.js Portfolio Platform",
+      "Active member of Computer Science Student Association"
+    ]
+  },
+  {
+    degree: "Frontend Development Bootcamp",
+    institution: "Dicoding Indonesia",
+    period: "2021",
+    logo: "/images/dicoding-logo.png",
+    description: "Intensive 6-month program covering modern frontend technologies including React, Vue, and Angular.",
+    achievements: [
+      "Top 5% graduate with perfect score",
+      "Built 10+ production-ready web applications",
+      "Mentored 20+ junior developers"
+    ]
+  },
+  {
+    degree: "High School - Science Major",
+    institution: "SMA Negeri 1 Jakarta",
+    period: "2015 - 2018",
+    logo: "/images/sma-logo.png",
+    description: "Focused on Mathematics and Computer Science with early exposure to programming.",
+    achievements: [
+      "Valedictorian with GPA 9.8/10.0",
+      "1st Place National Programming Olympiad",
+      "Student Council President"
+    ]
+  }
+];
+
+export const listCertificates = [
+  {
+    title: "React Developer Professional Certificate",
+    issuer: "Meta (Facebook)",
+    date: "December 2023",
+    image: "/images/cert-react-meta.jpg",
+    description: "Advanced React development including hooks, context, testing, and performance optimization.",
+    credentialUrl: "https://coursera.org/verify/professional-cert/example"
+  },
+  {
+    title: "Frontend Web Developer Expert",
+    issuer: "Dicoding Indonesia",
+    date: "November 2023",
+    image: "/images/cert-frontend-dicoding.jpg",
+    description: "Comprehensive frontend development covering HTML, CSS, JavaScript, and modern frameworks.",
+    credentialUrl: "https://dicoding.com/certificates/example"
+  },
+  {
+    title: "JavaScript Algorithms and Data Structures",
+    issuer: "freeCodeCamp",
+    date: "October 2023",
+    image: "/images/cert-js-freecodecamp.jpg",
+    description: "300+ hours of coursework covering ES6, regular expressions, debugging, data structures and algorithms.",
+    credentialUrl: "https://freecodecamp.org/certification/example"
+  },
+  {
+    title: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    date: "September 2023",
+    image: "/images/cert-aws-cloud.jpg",
+    description: "Foundational understanding of AWS Cloud concepts, services, security, architecture, pricing, and support.",
+    credentialUrl: "https://aws.amazon.com/verification/example"
+  },
+  {
+    title: "Google UX Design Professional Certificate",
+    issuer: "Google",
+    date: "August 2023",
+    image: "/images/cert-ux-google.jpg",
+    description: "User experience design process from empathizing with users to defining pain points to coming up with ideas for design solutions.",
+    credentialUrl: "https://coursera.org/verify/professional-cert/example"
+  },
+  {
+    title: "Tailwind CSS Mastery",
+    issuer: "Tailwind Labs",
+    date: "July 2023",
+    image: "/images/cert-tailwind.jpg",
+    description: "Advanced utility-first CSS framework techniques for rapid UI development.",
+    credentialUrl: "https://tailwindcss.com/certificates/example"
+  }
+];

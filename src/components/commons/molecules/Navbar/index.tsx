@@ -9,6 +9,9 @@ const listNavbar = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Skills", path: "/skills" },
+  { name: "Projects", path: "/projects" },
+  { name: "Education", path: "/education" },
+  { name: "Certificates", path: "/certificates" },
 ];
 
 const Navbar = () => {
