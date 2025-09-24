@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import CardMedium from "../../atoms/CardMedium";
 import DoubleCurvedText from "../../atoms/DoubleCurvedtext";
 
-import Banner from "/images/bg-1.jpg";
+import Banner from "https://github.com/YoshCasaster/YoshCasaster/blob/main/yoshc.jpg?raw=true";
 import { IoArrowForwardOutline } from "react-icons/io5";
 
 const HeroBanner = () => {
