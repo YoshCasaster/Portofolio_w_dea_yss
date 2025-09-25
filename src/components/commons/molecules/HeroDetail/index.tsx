@@ -31,7 +31,7 @@ const HeroDetail = () => {
     <>
       <section className="flex max-md:flex-col-reverse">
         <div className="w-[60%] text-left text-(--text-color-black) max-xl:w-[50%] max-md:mt-8 max-md:w-full">
-          <p>YoshCasastera</p>
+          <p>YoshCasaster</p>
 
           <div className="flex gap-8 max-xl:flex-col">
             <div>
@@ -81,7 +81,7 @@ const HeroDetail = () => {
         </div>
 
         <div className="flex w-[40%] flex-col gap-4 md:pl-4 max-xl:w-[50%] mt-1.5 max-md:mt-14 max-md:w-full">
-          <div className="md:mx-auto mt-16 hidden gap-1 text-(--text-color-black) max-xl:flex max-xl:justify-center">
+          <div className="md:mx-auto mt-16 hidden gap-1 font-semibold text-(--text-color-black) max-xl:flex max-xl:justify-center">
             {viewListSkills()}
           </div>
 
@@ -93,9 +93,7 @@ const HeroDetail = () => {
               text={item.desc}
               title={item.title}
               tech={item.list_tech}
-              onClick={() => {
-                setDataProject(item as any);
-              }}
+              projectId={index}
             />
           ))}
         </div>

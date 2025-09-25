@@ -19,13 +19,13 @@ const DoubleCurvedText = ({ type } : any) => {
         )}
       </defs>
 
-      <text className="fill-black text-[18px] font-medium tracking-wide">
+      <text className="fill-white text-[18px] font-medium tracking-wide">
         <textPath
           href={type === "top" ? "#curveTop" : "#curveBottom"}
           startOffset="50%"
           textAnchor="middle"
         >
-          {type === "top" ? "Get started with us" : "Discover more below"}
+          {type === "top" ? "Amor vincit omnia" : "Grandescunt aucta labore"}
         </textPath>
       </text>
     </svg>

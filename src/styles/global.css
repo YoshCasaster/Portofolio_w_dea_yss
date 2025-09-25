@@ -7,12 +7,12 @@
   --font-mullish: "Mullish", "sans-serif";
   --font-barlow-condensed: "Barlow Condensed", "sans-serif";
 
-  --bg-primary-cray: #FBF9EE;
-  --bg-secondary-cray: #FCCD97;
-  --bg-tertiary-cray: #FFF2E2;
-
-  --text-color-black: #0A0907;
-  --text-color-grey: #B5B2B6;
+  --bg-primary-cray: #12100E;       
+  --bg-secondary-cray: #1f253a;    
+  --bg-tertiary-cray: #161923;      
+  
+  --text-color-white: #F5F1E6;     
+  --text-color-grey: #A8A29E;      
 
   --my-width-nav: calc(100% - 32px);
 

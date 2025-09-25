@@ -14,7 +14,7 @@ const listSocial = [
   {
     name: "Instagram",
     icon: <FaInstagram />,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/yosepwdd",
   },
   {
     name: "LinkedIn",

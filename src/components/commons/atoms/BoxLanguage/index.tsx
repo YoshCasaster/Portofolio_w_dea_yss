@@ -4,7 +4,6 @@ import { useTranslation } from "react-i18next";
 const languages = [
   { id: "en", name: "EN" },
   { id: "id", name: "ID" },
-  { id: "fr", name: "FR" },
 ];
 
 const BoxLanguage = () => {
@@ -12,7 +11,7 @@ const BoxLanguage = () => {
   const currentLang = i18n.language;
 
   return (
-    <div className="flex h-10 w-auto items-center justify-center gap-1 text-sm">
+    <div className="flex h-10 w-auto items-center justify-center gap-1 text-sm font-semibold text-(--text-color-black)">
       <FaGlobe className="text-lg" />
       {languages.map((language) => (
         <p

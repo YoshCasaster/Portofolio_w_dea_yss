@@ -9,6 +9,10 @@ const listNavbar = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Skills", path: "/skills" },
+  { name: "Projects", path: "/projects" },
+  { name: "Work History", path: "/work-history" },
+  { name: "Education", path: "/education" },
+  { name: "Certificates", path: "/certificates" },
 ];
 
 const Navbar = () => {
@@ -43,11 +47,6 @@ const Navbar = () => {
             onSearch={() => console.log(search)}
           />
 
-          <BoxProfile
-            name={`Yosh Casaster`}
-            onClick={() => console.log("profile")}
-            picture={`/images/yoshcasaster.jpg`}
-          />
         </section>
       </header>
 
