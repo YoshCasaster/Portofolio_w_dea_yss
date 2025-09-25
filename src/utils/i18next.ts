@@ -121,119 +121,6 @@ const resources = {
           }
         }
       },
-
-      projects: {
-        title: "My Projects",
-        description: "A collection of web development projects showcasing my skills in frontend technologies, responsive design, and user experience. Each project represents a unique challenge and learning opportunity.",
-        viewMore: "View More on GitHub"
-      },
-
-      education: {
-        title: "Education Background",
-        description: "My academic journey and continuous learning path in computer science and web development, from formal education to professional certifications.",
-        achievements: "Key Achievements",
-        items: {
-          0: {
-            degree: "Bachelor of Computer Science",
-            institution: "Universitas Indonesia",
-            period: "2018 - 2022",
-            description: "Focused on Software Engineering and Web Development with specialization in Frontend Technologies.",
-            achievements: {
-              0: "Graduated Magna Cum Laude with GPA 3.8/4.0",
-              1: "Best Final Project Award for React.js Portfolio Platform",
-              2: "Active member of Computer Science Student Association"
-            }
-          },
-          1: {
-            degree: "Frontend Development Bootcamp",
-            institution: "Dicoding Indonesia",
-            period: "2021",
-            description: "Intensive 6-month program covering modern frontend technologies including React, Vue, and Angular.",
-            achievements: {
-              0: "Top 5% graduate with perfect score",
-              1: "Built 10+ production-ready web applications",
-              2: "Mentored 20+ junior developers"
-            }
-          },
-          2: {
-            degree: "High School - Science Major",
-            institution: "SMA Negeri 1 Jakarta",
-            period: "2015 - 2018",
-            description: "Focused on Mathematics and Computer Science with early exposure to programming.",
-            achievements: {
-              0: "Valedictorian with GPA 9.8/10.0",
-              1: "1st Place National Programming Olympiad",
-              2: "Student Council President"
-            }
-          }
-        }
-      },
-
-      certificates: {
-        title: "Certificates & Achievements",
-        description: "Professional certifications and achievements that validate my expertise in web development, cloud computing, and user experience design.",
-        viewCredential: "View Credential",
-        items: {
-          0: {
-            title: "React Developer Professional Certificate",
-            issuer: "Meta (Facebook)",
-            date: "December 2023"
-          },
-          1: {
-            title: "Frontend Web Developer Expert",
-            issuer: "Dicoding Indonesia",
-            date: "November 2023"
-          },
-          2: {
-            title: "JavaScript Algorithms and Data Structures",
-            issuer: "freeCodeCamp",
-            date: "October 2023"
-          },
-          3: {
-            title: "AWS Certified Cloud Practitioner",
-            issuer: "Amazon Web Services",
-            date: "September 2023"
-          },
-          4: {
-            title: "Google UX Design Professional Certificate",
-            issuer: "Google",
-            date: "August 2023"
-          },
-          5: {
-            title: "Tailwind CSS Mastery",
-            issuer: "Tailwind Labs",
-            date: "July 2023"
-          }
-        }
-      },
-
-      workHistory: {
-        title: "Work History",
-        description: "My professional journey and experience working with various companies, from startups to established agencies, building modern web applications and leading development teams.",
-        items: {
-          0: {
-            company: "Tech Innovate Solutions",
-            position: "Senior Frontend Developer",
-            period: "Jan 2022 - Present",
-            shortDesc: "Leading frontend development for enterprise web applications using React.js and modern web technologies.",
-            description: "As a Senior Frontend Developer at Tech Innovate Solutions, I lead the development of complex web applications for enterprise clients. My responsibilities include architecting scalable frontend solutions, mentoring junior developers, and collaborating with cross-functional teams to deliver high-quality products. I've successfully delivered 15+ projects, improved application performance by 40%, and established coding standards that increased team productivity."
-          },
-          1: {
-            company: "Digital Creative Agency",
-            position: "Frontend Developer", 
-            period: "Mar 2020 - Dec 2021",
-            shortDesc: "Developed responsive websites and web applications for various clients in creative and e-commerce industries.",
-            description: "At Digital Creative Agency, I was responsible for creating engaging and responsive websites for clients across various industries. I worked closely with designers and backend developers to bring creative concepts to life. My role involved developing custom WordPress themes, building React applications, and ensuring cross-browser compatibility and mobile responsiveness."
-          },
-          2: {
-            company: "StartupTech Indonesia",
-            position: "Junior Frontend Developer",
-            period: "Jun 2019 - Feb 2020", 
-            shortDesc: "Started my professional journey developing user interfaces for startup products and learning modern web development practices.",
-            description: "My first professional role where I learned the fundamentals of modern web development. I contributed to building the company's main product interface, participated in code reviews, and gained experience with agile development methodologies. This role provided me with a solid foundation in React.js, version control, and collaborative development practices."
-          }
-        }
-      },
     },
   },
   id: {
@@ -254,37 +141,108 @@ const resources = {
           desc: "Implementasi RPG berbasis teks dari BOT WhatsApp menjadi RPG berbasis Website dengan animasi yang unik",
         },
         project2: {
-          title: "Portofolio Developer Pribadi – GSAP & UI 3D",
-          desc: "Membuat situs portofolio animasi dengan scroll animation dari GSAP dan elemen 3D interaktif menggunakan Three.js. Menyertakan CMS kustom untuk pembaruan konten yang mudah. Meraih skor performa Lighthouse 98+. Dibangun dengan fokus pada SEO, desain responsif, dan aksesibilitas.",
+          title: "LOVB APP",
+          desc: "Aplikasi Berbasis Web, LOVB adalah aplikasi catatan pengeluaran untuk megantisipasi overbudget harian, dengan adanya rekap bulanan serta tahunan",
         },
+        project3: {
+          title: "GMAIL MARKETING",
+          desc: `Software Pengiriman Gmail secara masal.
+          - Menyimpan Akun Gmail
+          - Mendapatkan Log Pengiriman
+          - Tanpa Batas Limit Pengiriman`,
+        },
+        project4: {
+          title: "WEB PERSONAL BRANDING",
+          desc: `Website Toko Pribadi.`,
+        }
       },
-    },
-  },
-  fr: {
-    translation: {
-      headline:
-        "Favoriser des expériences numériques grâce au développement frontend",
-      description:
-        "Je suis développeur web frontend avec un sens aigu du design, dédié à la transformation de concepts créatifs en sites web réactifs et performants. Des interfaces UI/UX interactives aux animations fluides et au code évolutif, j'aide les marques et les créateurs à construire des expériences numériques puissantes et engageantes.",
-      codeStats: "Lignes de code & en augmentation",
-      industrySummary:
-        "Collaboration avec des clients dans les domaines de la technologie, du jeu vidéo et de la création pour développer des sites web modernes et réactifs. Alliant précision du design et code propre pour offrir des solutions frontend exceptionnelles.",
-      discover: "Découvrir plus",
-      aboutUs: "A propos de nous",
-      desc_aboutUs: "Bonjour, je suis Yosh Casaster, développeur web frontend passionné par la création d’expériences web fluides, réactives et visuellement attrayantes. Mon principal objectif est de concevoir des interfaces centrées utilisateur avec des frameworks modernes comme React.js, renforcés par des outils utility-first tels que Tailwind CSS. Fort de plus de 4 ans d’expérience en ingénierie frontend, je me spécialise dans la création de sites web rapides, accessibles et évolutifs, performants sur tous les appareils. Je suis fier de combiner un code propre avec un design significatif. Qu’il s’agisse de mettre en œuvre des animations GSAP fluides ou d’intégrer des interactions 3D immersives avec Three.js, j’aborde chaque projet avec une attention particulière à la performance, la réactivité et la créativité. Au-delà de 'l’apparence,' je m’assure que tout fonctionne parfaitement — chaque composant UI est efficace, intuitif et réutilisable. Actuellement, je collabore avec des équipes créatives, des startups et des développeurs de jeux indépendants pour transformer des idées complexes en interfaces élégantes et fonctionnelles. J’explore sans cesse de nouveaux horizons dans l’animation web, le design du mouvement et l’architecture frontend. Construisons ensemble quelque chose d’exceptionnel.",
+      education: {
+        title: "Latar Belakang Pendidikan",
+        description: "Perjalanan akademis dan jalur pembelajaran berkelanjutan saya dalam ilmu komputer dan pengembangan web, dari pendidikan formal hingga sertifikasi profesional.",
+        achievements: "Pencapaian Utama",
+        items: {
+          0: {
+            degree: "Sarjana Teknik Informatika",
+            institution: "Universitas Semarang",
+            period: "2025",
+            description: "Fokus pada Rekayasa Perangkat Lunak dan Pengembangan Web dengan spesialisasi dalam Teknologi Frontend.",
+            achievements: {
+              0: "Membangun BOT WhatsApp Untuk UMKM KKN",
+              1: "10 Penulis Terbaik SINATTI",
+            }
+          },
+          1: {
+            degree: "Farmasi Industri",
+            institution: "SMK Theresiana",
+            period: "2020",
+            description: "Fokus pada industri farmasi dan pembuatan obat dengan skala besar",
+            achievements: {
 
-      projects: {
-        project1: {
-          title: "Darkblade Studio – Développement de plateforme Web",
-          desc: "Développement d'une plateforme web entièrement responsive et évolutive pour un studio de jeux fantastiques. Utilisation de React.js avec Tailwind CSS pour une construction rapide de l’interface, intégration d’API backend pour les statistiques de joueurs, connexions et classements en direct. Optimisé pour la performance et l’accessibilité.",
-        },
-        project2: {
-          title: "Portfolio Développeur Personnel – GSAP & UI 3D",
-          desc: "Création d’un site de portfolio animé avec des scroll animations GSAP et des éléments 3D interactifs via Three.js. CMS personnalisé pour une mise à jour facile du contenu. Score Lighthouse de 98+. Construit avec un focus sur le SEO, la réactivité, et l’accessibilité.",
-        },
+            }
+          }
+        }
+      },
+
+      certificates: {
+        title: "Sertifikat & Pencapaian",
+        description: "Sertifikasi profesional dan pencapaian yang memvalidasi keahlian saya dalam pengembangan web, cloud computing, dan desain pengalaman pengguna.",
+        viewCredential: "Lihat Kredensial",
+        items: {
+          0: {
+            title: "SINATTI 2025",
+            issuer: "Transformasi Digital Berkelanjutan",
+            date: "Juli 2025"
+          },
+          1: {
+            title: "JMC TALK",
+            issuer: "FRAMEWORK 101",
+            date: "Desember 2020",
+          },
+          2: {
+            title: "Coding Yourself",
+            issuer: "Memprogram Keunikan Diri Sendiri",
+            date: "November 2020",
+          },
+          3: {
+            title: "AWS Certified Cloud Practitioner",
+            issuer: "Amazon Web Services",
+            date: "September 2023"
+          },
+          4: {
+            title: "Sertifikat Profesional Google UX Design",
+            issuer: "Google",
+            date: "Agustus 2023"
+          },
+          5: {
+            title: "Penguasaan Tailwind CSS",
+            issuer: "Tailwind Labs",
+            date: "Juli 2023"
+          }
+        }
+      },
+
+      workHistory: {
+        title: "Riwayat Pekerjaan",
+        description: "Perjalanan profesional dan pengalaman saya bekerja dengan berbagai perusahaan, dari startup hingga agensi mapan, membangun aplikasi web modern dan memimpin tim pengembangan.",
+        items: {
+          0: {
+            company: "PT Vista Jaya Raya",
+            position: "Desk Collection",
+            period: "Jan 2024 - Okt 2024",
+            shortDesc: "Negosiasi dan Rekap Data Nasabah",
+            description: "Melakukan negosiasi untuk mencapai tujuan bersama dan melakukan rekap data secara berkala pada setiap bulan"
+          },
+          1: {
+            company: "PT Global Multi Pharmalab",
+            position: "Quality Control",
+            period: "Mar 2020",
+            shortDesc: "Menjaga Kualitas Produksi Obat",
+            description: "pengujian bahan baku, bahan pengemas, produk antara, dan produk jadi untuk memastikan kemurnian, keamanan, dan kemanjuran obat sesuai standar dan Cara Pembuatan Obat yang Baik"
+          }
+        }
       },
     },
-  },
+  }
 };
 
 i18n.use(initReactI18next).init({

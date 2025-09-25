@@ -376,4 +376,5 @@ export const listCertificates = [
     description: "Advanced utility-first CSS framework techniques for rapid UI development.",
     credentialUrl: "https://tailwindcss.com/certificates/example"
   }
-];
+];/certificates/example"
+>>>>>>> 649eb40b087e075f40aa74eaeb893a8e116f63d2
