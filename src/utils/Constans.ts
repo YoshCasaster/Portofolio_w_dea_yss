@@ -121,33 +121,6 @@ export const listProjects = [
 
 
 
-export const listCertificates = [
-  {
-    title: "SINATTI 2025",
-    issuer: "Transformasi Digital Berkelanjutan",
-    date: "Juli 2025",
-    image: "/images/sinatti.png",
-    description: "SEMINAR NASIONAL TEKNOLOGI INFORMASI Transformasi Digital Berkelanjutan Inovasi, Keamanan, dan Kecerdasan Buatan.",
-    credentialUrl: "https://coursera.org/verify/professional-cert/example"
-  },
-  {
-    title: "JMC TALK",
-    issuer: "FRAMEWORK 101",
-    date: "Desember 2020",
-    image: "/images/jmc.png",
-    description: "JMC TALK : FRAMEWORK 101 IT CONSULTANT",
-    credentialUrl: "https://dicoding.com/certificates/example"
-  },
-  {
-    title: "Coding Yourself",
-    issuer: "Memprogram Keunikan Diri Sendiri",
-    date: "November 2020",
-    image: "/images/coding_yourslf.png",
-    description: "Dicoding Memprogram Keunikan Diri Sendiri",
-    credentialUrl: "https://freecodecamp.org/certification/example"
-  }
-];
-
 export const listEducation = [
   {
     degree: "Bachelor of Computer Science",
@@ -311,5 +284,4 @@ export const listCertificates = [
     description: "Advanced utility-first CSS framework techniques for rapid UI development.",
     credentialUrl: "https://tailwindcss.com/certificates/example"
   }
-];/certificates/example"
->>>>>>> 649eb40b087e075f40aa74eaeb893a8e116f63d2
+];
