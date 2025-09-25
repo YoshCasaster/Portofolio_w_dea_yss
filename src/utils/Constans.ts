@@ -119,72 +119,7 @@ export const listProjects = [
   },
 ];
 
-export const listEducation = [
-  {
-    degree: "TEKNIK INFORMATIKA",
-    institution: "UNIVERSITAS SEMARANG",
-    period: "2025",
-    logo: "/images/usm.png",
-    description: "Focused on Software Engineering and Web Development with specialization in Frontend Technologies.",
-    achievements: [
-      "Build BOT WhatsApp KKN USM",
-      "TOP 10 Author SINATTI"
-    ]
-  },
-  {
-    degree: "FARMASI INDUSTRI",
-    institution: "SMK THERESIANA SEMARANG",
-    period: "2021",
-    logo: "/images/smk.png",
-    description: "Fokus pada konsentrasi industri farmasi, manufaktur obat skala besar",
-    achievements: [
-    ]
-  }
-];
 
-export const listWorkHistory = [
-  {
-    company: "PT Vista Jaya Raya",
-    position: "Desk Collection",
-    period: "Jan 2024 - Oct 2024",
-    duration: "10 Month",
-    type: "Full-time",
-    location: "Semarang, Indonesia",
-    shortDesc: "Customer billing and data processing",
-    description: "Customer billing and data processing",
-    banner: "https://afpi.or.id/fm/uploads/members/1694513470.png",
-    logo: "https://afpi.or.id/fm/uploads/members/1694513470.png",
-    companyUrl: "https://vjr.co.id/",
-    gallery: [
-      "/images/work-gallery-1-1.jpg",
-      "/images/work-gallery-1-2.jpg",
-      "/images/work-gallery-1-3.jpg"
-    ],
-    achievements: [
-    ]
-  },
-  {
-    company: "Digital Creative Agency",
-    position: "Frontend Developer",
-    period: "Mar 2020 - Dec 2021",
-    duration: "1 year 10 months",
-    type: "Full-time",
-    location: "Bandung, Indonesia",
-    shortDesc: "Developed responsive websites and web applications for various clients in creative and e-commerce industries.",
-    description: "At Digital Creative Agency, I was responsible for creating engaging and responsive websites for clients across various industries. I worked closely with designers and backend developers to bring creative concepts to life. My role involved developing custom WordPress themes, building React applications, and ensuring cross-browser compatibility and mobile responsiveness.",
-    banner: "/images/gmp2.png",
-    logo: "/images/gmp.png",
-    companyUrl: "https://digitalcreative.id",
-    gallery: [
-      "/images/work-gallery-2-1.jpg",
-      "/images/work-gallery-2-2.jpg",
-      "/images/work-gallery-2-3.jpg"
-    ],
-    achievements: [
-
-    ]
-  }
-];
 
 export const listCertificates = [
   {
