@@ -29,7 +29,13 @@ const ProjectDetailPage = () => {
 
   return (
     <main className="relative mx-auto box-border flex min-h-screen w-full max-w-[1444px] flex-col gap-4 overflow-x-hidden p-4">
-
+      {/* Back Button */}
+      <button
+        onClick={() => navigate("/projects")}
+        className="fixed top-6 left-6 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-(--bg-secondary-cray) shadow-lg hover:bg-(--bg-primary-cray) transition-all duration-300"
+      >
+        <IoArrowBack className="text-xl text-(--text-color-black)" />
+      </button>
 
       {/* Banner Image */}
       <section className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-3xl overflow-hidden">

@@ -32,7 +32,13 @@ const WorkHistoryDetailPage = () => {
   return (
     <>
       <main className="relative mx-auto box-border flex min-h-screen w-full max-w-[1444px] flex-col gap-4 overflow-x-hidden p-4">
-
+        {/* Back Button */}
+        <button
+          onClick={() => navigate("/work-history")}
+          className="fixed top-6 left-6 z-40 flex h-12 w-12 items-center justify-center rounded-full bg-(--bg-secondary-cray) shadow-lg hover:bg-(--bg-primary-cray) transition-all duration-300"
+        >
+          <IoArrowBack className="text-xl text-(--text-color-black)" />
+        </button>
 
         {/* Banner Image */}
         <section className="relative h-[250px] md:h-[350px] lg:h-[450px] w-full rounded-3xl overflow-hidden">

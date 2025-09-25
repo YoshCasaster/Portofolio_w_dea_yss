@@ -61,19 +61,19 @@ const routes = [
         path: "/certificates",
         Component: CertificatePage,
       },
-      {
+    ],
         key: "work-history",
-        name: "work-history",
+        name: "work-history", 
         path: "/work-history",
         Component: WorkHistoryPage,
       },
       {
         key: "work-history-detail",
         name: "work-history-detail",
-        path: "/work-history/:id",
+        path: "/work-history/:id", 
         Component: WorkHistoryDetailPage,
       },
-    ],
+      {
   },
   {
     name: "404",
